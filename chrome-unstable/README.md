@@ -11,7 +11,7 @@ Don't forget to allow docker instance to connect to your host.
 ## Basic usage
 
 ```
-docker run -rm -v /tmp/.X11-unix:/tmp/.X11-unix -e "DISPLAY=unix$DISPLAY" studiodev/chrome-unstable-x11  
+docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e "DISPLAY=unix$DISPLAY" studiodev/chrome-unstable-x11  
 ```
 
 ## Advanced usage
@@ -27,7 +27,7 @@ Create a new instance with one of these configurations
 *  Run with ephemeral storage  
 
 ```
-docker run -rm -v /tmp/.X11-unix:/tmp/.X11-unix -e "DISPLAY=unix$DISPLAY" chrome-unstable-x11  
+docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e "DISPLAY=unix$DISPLAY" chrome-unstable-x11  
 ```
 
 * Run stateful data-on-host  
