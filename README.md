@@ -10,7 +10,7 @@ Highly inspired from https://github.com/jfrazelle/dockerfiles
 
 ## Images
 
-* __Chrome Unstable__ : Run Chrome version unstable with flash enabled
+* __Chrome Unstable__ : Run Chrome version unstable on Ubuntu
 
 ## FAQ
 
